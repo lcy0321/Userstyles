@@ -1,0 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("million-arthurs.gamerch.com") {
+  /* Table Width */
+  d, th {
+    min-width: 48px !important;
+  }
+
+  /* Remove right div */
+  #ui_content article {
+    margin: 0px 0px 0px 210px !important;
+  }
+}
