@@ -10,6 +10,9 @@
   #ui_content article {
     margin: 0px 0px 0px 210px !important;
   }
+  #ui_wrap {
+    width: 100% !important;
+  }
   
   /* Make the header not always on the top */
   #ui_wiki, #ui_header_minwidth, .ui_header_right {
