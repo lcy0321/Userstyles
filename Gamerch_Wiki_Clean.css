@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("million-arthurs.gamerch.com") {
+@-moz-document domain("gamerch.com") {
   /* Table Width */
   d, th {
     min-width: 48px !important;
@@ -9,5 +9,26 @@
   /* Remove right div */
   #ui_content article {
     margin: 0px 0px 0px 210px !important;
+  }
+  
+  /* Make the header not always on the top */
+  #ui_wiki, #ui_header_minwidth, .ui_header_right {
+    position: absolute !important;
+  }
+  
+  /* Make the footer not always on the top */
+  #ui_mfroadmin_footer {
+    position: absolute !important;
+  }
+  #ui_f_bt:after {
+    display: none !important;;
+  }
+  .f_r {
+    height: 0 !important;
+  }
+  
+  /* Hide the edit page button */
+  #ui-fixed__edit {
+    visibility: hidden;
   }
 }
