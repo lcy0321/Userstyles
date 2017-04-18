@@ -10,9 +10,15 @@
   #ui_content article {
     margin: 0px 0px 0px 210px !important;
   }
+  .ui_nav_sub {
+    display: none !important;
+  }
   #ui_wrap {
     width: 100% !important;
   }
+  #ui_wrap #ui_content {
+    padding: 0 20px;
+}
   #ui_content > .ui_nav {
     width: 200px !important;
   }
